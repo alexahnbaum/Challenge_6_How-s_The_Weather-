@@ -46,16 +46,29 @@ button {
 }
 
 .all-weather-container {
-  width: 82%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 75%;
 }
 
 .today-card {
-  width: 80%;
+  width: 100%;
   border-style: solid;
   border-width: 1px;
   padding: 10px;
   margin: 15px;
   line-height: 50px;
+}
+
+.city-today-icon-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#weather-icon-today {
+  width: 4%;
+  height: 4%;
 }
 
 h2 {
@@ -65,10 +78,24 @@ h2 {
 .forecast-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 .forecast-cards {
-  width: 20px;
+  width: 16%;
+  border-style: solid;
   background-color: rgb(5, 32, 71);
   color: #fff;
+  line-height: 30px;
+  padding: 10px;
+}
+
+.weather-icon {
+  width: 20%;
+  margin: 4%;
+}
+
+h1 .weather-icon {
+  width: 5%;
 }

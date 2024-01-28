@@ -10,6 +10,7 @@ header {
   background: linear-gradient(90deg, hsl(216, 62%, 53%), rgb(6, 6, 106));
   color: #fff;
   font-size: 35px;
+  font-weight: 600;
   height: 70px;
   justify-content: center;
 }
@@ -44,9 +45,30 @@ button {
   border-radius: 5px;
 }
 
-.card {
+.all-weather-container {
+  width: 82%;
+}
+
+.today-card {
+  width: 80%;
   border-style: solid;
   border-width: 1px;
   padding: 10px;
   margin: 15px;
+  line-height: 50px;
+}
+
+h2 {
+  padding: 10px;
+}
+
+.forecast-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.forecast-cards {
+  width: 20px;
+  background-color: rgb(5, 32, 71);
+  color: #fff;
 }

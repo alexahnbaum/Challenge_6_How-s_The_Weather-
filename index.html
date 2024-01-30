@@ -12,14 +12,19 @@
     <main>
       <aside>
         <h1>Search for a City:</h1>
-        <input type="text" placeholder="enter city name" spellcheck="false" />
+        <input
+          type="text"
+          id="city-search"
+          placeholder="enter city name"
+          spellcheck="false"
+        />
         <button class="button">Search</button>
         <ul id="city-list"></ul>
       </aside>
       <div class="all-weather-container">
         <div class="today-card">
           <div class="city-today-icon-container">
-            <h1>London (1/24/2024)</h1>
+            <h1 id="today-city-date"></h1>
             <img
               src="./assets/images/sun.png"
               alt="sunny icon"
